@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop and Print",cParent:"Help", cExec:"for (var p=0; p<this.numPages; p++) { var boxes = ['Art','Bleed','Trim','Crop']; for (b=0;b<4;b++) {this.setPageBoxes(boxes[b], p, p, this.getPageBox('BBox', p))}};this.print();"});
