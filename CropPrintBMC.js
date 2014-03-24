@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop to BMC",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox('BBox',p);o[1]-=50;o[2]-=10;for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});
