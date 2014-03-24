@@ -1,1 +1,1 @@
-app.addMenuItem({cName:"Crop to content boundaries",cParent:"Crop and Print", cExec:"for (var p=0; p<this.numPages; p++) { var boxes = ['Art','Bleed','Trim','Crop']; for (b=0;b<4;b++) {this.setPageBoxes(boxes[b], p, p, this.getPageBox('BBox', p))}};this.print();"});
+app.addMenuItem({cName:"Crop to content boundaries",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox('BBox',p);for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});

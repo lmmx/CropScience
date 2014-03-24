@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop for Mol. Biol. Neurosci. (Springer)",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox('BBox',p);o[1]-=21.5;o[2]-=8;o[3]+=34;if(p%2==1){o[0]+=20;o[2]+=4};if(p==0){o[1]-=45};for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});

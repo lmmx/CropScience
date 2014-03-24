@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop for CSH Persp. Biol.",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox('BBox',p);o[0]+=80;o[1]-=70;o[2]-=8;o[3]+=34;if(p==0){o[0]-=68;o[1]+=30;o[2]+=6;o[3]+=63;};for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});

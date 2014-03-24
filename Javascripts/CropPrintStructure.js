@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop for Structure",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox(d[3],p);o[0]+=47;o[1]-=95;o[2]-=56;o[3]+=34.5;if(p%2==1){o[0]+=6;o[2]+=8;};for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});
