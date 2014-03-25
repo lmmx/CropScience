@@ -1,19 +1,23 @@
-JournalCrop-n-Print
+CropScience
 ===================
 
-Recently I've found myself fiddling around with measurements trying to crop PDFs to read away from the computer, as you can get larger more readable font sizes and less clutter on the page by cutting the edges off. Given that these things are standardised amongst various publishers I thought it could be a time saver in the long run to add a little button to automate the job, and after working it out I thought I'd share since so many other people are likely in the same boat, and it might be a useful resource for any other academics with less than 20/20 vision.
-
-These are a few Javascript files to add "crop &amp; print" options to the Acrobat Help menu for various academic journals.
-
 ![](https://github.com/lmmx/JournalCrop-n-Print/raw/master/crop.png)
+
+Recently I've found myself fiddling around with measurements trying to crop PDFs to print out and take away, as you can get larger, more readable font sizes and less clutter on the page by trimming the edges — but there are a few inconsistencies, with odd/even and title pages.
+
+Given that the layout tends to be standardised per publisher/publication I thought it could be a time saver in the long run to add a little button to automate the job. After figuring out how to do so I thought I'd share, since so many other academics are likely in the same boat.
+
+This project contains a few Javascript files to add a "Crop and Print" option to the Acrobat menu for various academic journals.
 
 Add them to <code>root\Users\<User>\AppData\Roaming\Adobe\Acrobat\Privileged\11.0\Javascripts</code> and they'll run at Acrobat start-up (adding options into the File menu). Clicking the appropriate one will crop the file and bring up the print dialogue.
 
 The above file path may differ if you're using an earlier version or Mac/Linux though I'm sure they'll be similar.
 
-![](https://github.com/lmmx/JournalCrop-n-Print/raw/master/journal%20list.png)
+![](https://raw.githubusercontent.com/lmmx/CropScience/7904b5bff0395fe2b83a06bc2796010d95587e99/journal%20list.png)
 
-The journals included are just those I read most of - I'll be looking to update with more soon, and feel free to fork this project and improve it if you're a javascript whiz. If there are any you don't want, just take out the corresponding files.
+The journals included are just those I read most of and by no means an exhaustive list. If there are any you don't read, just leave out the corresponding files.
+
+Do feel free to add your own (I've written [this short guide](https://github.com/lmmx/CropScience/wiki/User-guide) for instructions on how to do so), and please send me the results to include! If you use GitHub, you're welcome to merge them yourself, or even fork this project and improve it.
 
 Any questions / recommendations / comments, my email is naivelocus@gmail.com :~)
 
