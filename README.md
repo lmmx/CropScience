@@ -13,7 +13,7 @@ Add them to <code>root\Users\<User>\AppData\Roaming\Adobe\Acrobat\Privileged\11.
 
 The above file path may differ if you're using an earlier version or Mac/Linux though I'm sure they'll be similar.
 
-![](https://raw.githubusercontent.com/lmmx/CropScience/7904b5bff0395fe2b83a06bc2796010d95587e99/journal%20list.png)
+![](https://github.com/lmmx/CropScience/blob/master/journal%20list.png)
 
 The journals included are just those I read most of and by no means an exhaustive list. If there are any you don't read, just leave out the corresponding files.
 
