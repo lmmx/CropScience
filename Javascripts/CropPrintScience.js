@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop for Science",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox(d[3],p);o[0]+=32;o[1]-=32;o[2]-=32;o[3]+=32;if(p==0){o[1]+=12};for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});

@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop for Annu. Rev. Biochem.",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox(d[3],p);o[0]+=28.6;o[1]-=59.6;o[2]-=35.8;o[3]+=48;if(p==0){o[1]-=9;o[2]+=15};for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});
