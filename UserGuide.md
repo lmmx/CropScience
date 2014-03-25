@@ -15,9 +15,9 @@ BBox gives the best results for most, and can avoid hassle with setting odd and 
 
 Since in Acrobat pages start with "page 0", those with a remainder 1 are actually the "even" pages as we see them (i.e. starting from page 1).
 
-Acrobat feels the need to truncate strings at 256 characters, so there's a need to be concise. For this reason, where possible the variables have shorter (single letter) representations - which might make it a bit confusing. These are all declared in a single file, which actually saved a lot of time and leads to a speedier experience.
+Acrobat truncates strings such as the <code>cExec</code> string at 256 characters, so there's a need to be concise. For this reason, where possible the variables have shorter (single letter) representations - which might make it a bit confusing. These are all declared in a single file, which actually saves time and leads to a speedier experience (keeping the javascripts nice and tiny).
 
-For obvious reasons, this file has to load first, so it must have a space after the CropPrint in the title — <code>CropPrint Menu</code>. Likewise, this file creates the submenu the rest go into, so if you change the <code>cName</code> here you'll have to change the <code>cParent</code> for the scripts that follow or they won't be able to find it.
+For obvious reasons, this menu file has to load first, so it must have a space after the CropPrint in the title — <code>CropPrint Menu</code>. Likewise, this file creates the submenu the rest go into, so if you change the <code>cName</code> here you'll have to change the <code>cParent</code> for the scripts that follow or they won't be able to find it.
 
 The single letter 'shortcuts' (variables and functions) for the sake of being concise later on are:
 
