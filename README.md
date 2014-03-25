@@ -17,8 +17,8 @@ The above file path may differ if you're using an earlier version or Mac/Linux t
 
 The journals included are just those I read most of and by no means an exhaustive list. If there are any you don't read, just leave out the corresponding files.
 
-Do feel free to add your own (I've written [this short guide](https://github.com/lmmx/CropScience/wiki/User-guide) for instructions on how to do so), and please send me the results to include! If you use GitHub, you're welcome to merge them yourself, or even fork this project and improve it.
+Do feel free to add your own (I've written [this short guide](https://github.com/lmmx/CropScience/wiki/User-guide) for instructions on how to do so), and please send me the results to include! If you use GitHub, you can merge them yourself, or even fork this project and improve it. Those from outside the biosciences are also more than welcome to add relevant titles.
 
-Any questions / recommendations / comments, my email is naivelocus@gmail.com :~)
+Any further questions / recommendations / comments, my email is naivelocus@gmail.com :~)
 
 Louis <br/><a href="http://twitter.com/biochemistries">![](https://31.media.tumblr.com/3aa8b186c7d752bb14d53154abbd9e34/tumblr_inline_n2x06bbkQd1s16nrs.png) <sup>@biochemistries</a></sup>
