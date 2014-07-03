@@ -11,7 +11,7 @@ This project contains a few Javascript files to add a "Crop and Print" option to
 
 Add them to <code>root\Users\<User>\AppData\Roaming\Adobe\Acrobat\Privileged\11.0\Javascripts</code> and they'll run at Acrobat start-up (adding options into the File menu). Clicking the appropriate one will crop the file and bring up the print dialogue.
 
-The above file path may differ if you're using an earlier version or Mac/Linux though I'm sure they'll be similar.
+The above file path may differ if you're using an earlier version or Mac (<code>/Applications/Adobe Acrobat*/Adobe Acrobat Pro.app/Contents/Resources/Javascripts</code>) / Linux (<code>/opt/Adobe/Reader*/Javascripts</code>)
 
 ![](https://raw.githubusercontent.com/lmmx/CropScience/master/journal%20list.png)
 
