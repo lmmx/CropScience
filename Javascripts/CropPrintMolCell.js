@@ -1,0 +1,1 @@
+app.addMenuItem({cName:"Crop for Molecular Cell",cParent:"Crop and Print", cExec:"for(var p=0;p<n();p++){o=a().getPageBox(d[3],p);if(p%2==1){o[0]+=7;o[2]+=7;};o[0]+=50;o[1]-=100;o[2]-=57;o[3]+=47;for(b=0;b<4;b++){a().setPageBoxes(d[b],p,p,o)}};this.print();"});
